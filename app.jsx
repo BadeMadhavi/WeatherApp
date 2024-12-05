@@ -52,7 +52,7 @@ function Weather() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        <button onClick={handleWeather}>Get Weather</button>
+        <button onClick={handleWeather}>Weather Button</button>
       </div>
       {loading && <p className="loading">Loading...</p>}
       {error && <p className="error">{error}</p>}
